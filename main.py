@@ -17,5 +17,11 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 v = Vehicle("Ford", "F150", 2010, False, 25000, 12)
-print(v.make)
-print(v.model)
+c = Car("Ford1", "F250", 2012, True, 20000, 14, True)
+t = Truck("Ford", "F150", 2010, False, 25000, 12, True, 2000)
+
+v.print_vehicle()
+print()
+c.print_vehicle()
+print()
+t.print_vehicle()
