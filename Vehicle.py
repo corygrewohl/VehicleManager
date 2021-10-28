@@ -7,7 +7,8 @@ class Vehicle:
         self.retailPrice = retail_price
         self.MPG = mpg
 
-        # test2
+        def print_vehicles():
+            x = 5
 
 
 class Car(Vehicle):
